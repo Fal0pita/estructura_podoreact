@@ -1,0 +1,17 @@
+nav {
+    /* color de fondo de lista*/
+    background-color: rgb(255, 255, 255);
+    color: #3bb4c4;
+}
+
+nav a {
+    /*enlaces de secciones*/
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover {
+    /*color al pasar por encima*/
+    color: rgb(165, 252, 253);
+}
+/**OJO con los nav links, si es class o classname*/

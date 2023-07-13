@@ -1,0 +1,34 @@
+header {
+    /* Sección que incluye barra de navegación completa*/
+    display: flex;
+    position: fixed;
+    height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
+}
+.logo {
+    /*div del logo*/
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+a {
+    /*enlaces, text decoration none para que no tengan linea abajo*/
+    color: inherit;
+    text-decoration: none;
+}
+
+a:active {
+    outline: none;
+}
+
+
+.logo img {
+    /* imagen dle logo*/
+    height: 70px;
+    margin-left: 10px;
+}
